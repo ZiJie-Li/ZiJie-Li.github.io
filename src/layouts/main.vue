@@ -2,30 +2,22 @@
     <div class="container">
         <section class="resume">
             <div class="profile">
-                <div class="warpper">
-                    <div class="logo">哩賀!</div>
-                    <div class="name">I'm 哩籽捷</div>
-                    <div class="job">Full Stack developer</div>
+                <div class="profile-warpper">
+                    <div class="profile-warpper__logo">哩賀!</div>
+                    <div class="profile-warpper__name">I'm 哩籽捷</div>
+                    <div class="profile-warpper__job">Full Stack developer</div>
                 </div>
             </div>
             <div class="avatar">
-                <div class="photo" :style="'background-image: url(' + avatar + ')'"></div>
-                <div class="slogan">不停努力，總有一天會被看見。</div>
+                <div class="avatar__photo" :style="'background-image: url(' + avatar + ')'"></div>
+                <div class="avatar__slogan">不停努力，總有一天會被看見。</div>
             </div>
         </section>
 
         <section class="experience">
             <div class="row">
                 <div class="col-xs-12 col-md-4" v-for="(experience, k) in experiences" :key="k">
-                    <div class="feature">
-                        <h3 class="subject">{{ experience.subject }}</h3>
-                        <ul class="list">
-                            <li v-for="(item, n) in experience.list" :key="n">
-                                <div class="title">{{ item.title }}</div>
-                                <div class="desc">- {{ item.desc }}</div>
-                            </li>
-                        </ul>
-                    </div>
+                    <feature-box :subject="experience.subject" :list="experience.list"></feature-box>
                 </div>
             </div>
         </section>
@@ -40,9 +32,11 @@
 </template>
 
 <script>
-import ProjectCard from '../components/ProjectCard';
 import avatar from '../../assets/images/lee2.JPG';
 import photos from '../../assets/images/projects/*.png';
+
+import FeatureBox from '../components/FeatureBox';
+import ProjectCard from '../components/ProjectCard';
 
 export default {
   name: "Main",
@@ -159,7 +153,7 @@ export default {
                 title: '個人網站Version1',
                 tag: 'FRONT END',
                 photo: photos.lee_web_s,
-                url: 'http://zijie-li.github.io/'
+                url: 'http://zijie-li.github.io/version1'
             },
             {
                 title: '1999高雄一指通',
@@ -230,6 +224,7 @@ export default {
       }
   },
   components: {
+      FeatureBox,
       ProjectCard
   }
 };

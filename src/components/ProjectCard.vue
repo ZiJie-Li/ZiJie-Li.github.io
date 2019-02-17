@@ -1,7 +1,7 @@
 <template>
   <div class="card" :class="color" @click="onClick">
-    <div class="next">
-      <span class="label">View
+    <div class="card__next">
+      <span class="card__next--label">View
         <br>Project
       </span>
       <svg
@@ -21,11 +21,11 @@
         ></path>
       </svg>
     </div>
-    <div class="title">{{ title }}</div>
-    <div class="photo-warpper">
-      <div class="photo" :style="'background-image: url(' + photo + ');'"></div>
+    <div class="card__title">{{ title }}</div>
+    <div class="card__photo-warpper">
+      <div class="card__photo-warpper__photo" :style="'background-image: url(' + photo + ');'"></div>
     </div>
-    <div class="tag">{{ tag }}</div>
+    <div class="card__tag">{{ tag }}</div>
   </div>
 </template>
 

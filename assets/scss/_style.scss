@@ -59,8 +59,7 @@ ul {
 .profile {
   float: left;
   width: calc(100% - 250px);
-
-  .logo {
+  .profile-warpper__logo {
     @extend .box;
     position: relative;
     letter-spacing: 5px;
@@ -78,7 +77,7 @@ ul {
       background-color: #009688;
     }
   }
-  .name {
+  .profile-warpper__name {
     @extend .box;
     padding: 5px 0;
     font-weight: 600;
@@ -86,7 +85,7 @@ ul {
     margin-bottom: 5px;
     @include font-size(18);
   }
-  .job {
+  .profile-warpper__job {
     @extend .box;
     width: auto;
     padding: 2px 5px;
@@ -99,26 +98,24 @@ ul {
 }
 
 @media (max-width: $window-width-xs) {
-   .profile {
-      width: 100%;
-
-      .warpper {
-         width: 200px;
-          margin: 0 auto;
-          text-align: center;
-        }
-
-        .logo::after {
-            left: calc(50% - 20px);
-      }
-   }
+  .profile {
+    width: 100%;
+    .profile-warpper {
+      width: 200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .profile-warpper__logo::after {
+      left: calc(50% - 20px);
+    }
+  }
 }
 
 .avatar {
   float: left;
   width: 250px;
   margin-top: 15px;
-  .photo {
+  .avatar__photo {
     margin: 0 auto;
     width: 140px;
     height: 140px;
@@ -129,7 +126,7 @@ ul {
     background-size: cover;
     box-shadow: 2px 2px 35px rgba(100, 100, 100, .35);
   }
-  .slogan {
+  .avatar__slogan {
     @extend .box;
     padding: 10px 0;
     margin-top: 10px;
@@ -140,14 +137,13 @@ ul {
 }
 
 @media (max-width: $window-width-xs) {
-   .avatar {
-      width: 100%;
-      margin-top: 60px;
-
-      .photo {
-         margin: 0 auto;
-      }
-   }
+  .avatar {
+    width: 100%;
+    margin-top: 60px;
+    .avatar__photo {
+      margin: 0 auto;
+    }
+  }
 }
 
 .experience {
@@ -163,7 +159,6 @@ ul {
     width: calc((100% - 60px) / 3);
     margin-right: 15px;
     margin-left: 15px;
-
     &:nth-child(3n - 2) {
       margin-left: 0;
     }
@@ -174,51 +169,44 @@ ul {
   @media (max-width: $window-width-md) {
     .card-row {
       width: calc((100% - 30px) / 2);
-
       &:nth-child(3n - 2) {
-         margin-left: 15px;
-       }
-       &:nth-child(3n) {
-         margin-right: 15px;
-       }
-
-       &:nth-child(2n - 1) {
-         margin-left: 0;
-       }
-
-       &:nth-child(2n) {
-         margin-right: 0;
-       }
+        margin-left: 15px;
+      }
+      &:nth-child(3n) {
+        margin-right: 15px;
+      }
+      &:nth-child(2n - 1) {
+        margin-left: 0;
+      }
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
     }
   }
-
   @media (max-width: $window-width-sm) {
-   .card .next .label {
+    .card .card__next .card__next--label {
       display: none;
-   }
+    }
   }
-
   @media (max-width: $window-width-xs) {
-   .card-row {
+    .card-row {
       width: 100%;
       margin-right: 0;
-    margin-left: 0;
-
-       &:nth-child(2n - 1) {
-         margin-right: 0;
-       }
-
-       &:nth-child(2n) {
-         margin-left: 0;
-       }
+      margin-left: 0;
+      &:nth-child(2n - 1) {
+        margin-right: 0;
+      }
+      &:nth-child(2n) {
+        margin-left: 0;
+      }
     }
   }
 }
 
 @media (max-width: $window-width-md) {
-   .project {
-      margin: 30px 0;
-   }
+  .project {
+    margin: 30px 0;
+  }
 }
 
 footer {
@@ -227,7 +215,7 @@ footer {
   .social-media {
     @extend .box;
     margin: 5px 0 20px;
-    .icon-ul {
+    .social-media__icon-ul {
       display: inline-block;
       li {
         float: left;

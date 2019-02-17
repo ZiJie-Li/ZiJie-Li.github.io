@@ -2,7 +2,7 @@
   <footer>
     <div class="container">
       <div class="social-media">
-        <ul class="icon-ul">
+        <ul class="social-media__icon-ul">
           <li v-for="(social, k) in socials" :key="k">
             <a :href="social.url" target="_blank">
               <i class="icon fa" :class="social.icon" aria-hidden="true"></i>
