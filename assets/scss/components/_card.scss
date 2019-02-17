@@ -1,0 +1,134 @@
+.card {
+  @extend .box;
+  position: relative;
+  height: 520px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  
+  &:hover {
+    .photo-warpper {
+      transform: scale(1.02);
+      -moz-transform: scale(1.02);
+      -webkit-transform: scale(1.02);
+      -o-transform: scale(1.02);
+      -ms-transform: scale(1.02);
+      transition: 0.3s all 0s ease;
+    }
+
+    .next .label {
+      opacity: 1;
+    }
+  }
+  
+  .next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    color: white;
+    bottom: 20px;
+    right: 30px;
+    border-radius: 100%;
+    background-color: rgba(100, 100, 100, .3);
+    
+    .label {
+      display: inline block;
+      opacity: 0;
+      text-transform: uppercase;
+      color: $white;
+      font-size: 10px;
+      letter-spacing: 1px;
+      text-align: right;
+      position: absolute;
+      top: 6px;
+      left: -75px;
+      transition: 0.3s all 0s ease;
+    }
+    
+    .svg {
+      position: absolute;
+      left: 12px;
+      top: 10px;
+      width: 1rem;
+    }
+  }
+  
+  .title {
+    position: absolute;
+    top: 25px;
+    left: 10%;
+    width: 80%;
+    height: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fdfdfd;
+    @include font-size(18);
+  }
+  
+  .photo-warpper {
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    width: 80%;
+    height: calc(100% - 165px);
+    padding: 3px;
+    background-color: $white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+    
+    .photo {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: top center;
+      border-radius: inherit;
+    }
+  }
+  
+  .tag {
+    position: absolute;
+    padding: 10px 20px;
+    color: $white;
+    bottom: 20px;
+    left: 10%;
+    font-size: 12px;
+    border-radius: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
+  }
+
+  &.yellow {
+    @extend .bg-yellow;
+
+    .tag {
+      @extend .bg-yellow;
+    }
+  }
+
+  &.green {
+    @extend .bg-green;
+
+    .tag {
+      @extend .bg-green;
+    }
+  }
+
+  &.blue {
+    @extend .bg-blue;
+
+    .tag {
+      @extend .bg-blue;
+    }
+  }
+
+  &.black-gary {
+    @extend .bg-black-gary;
+
+    .tag {
+      @extend .bg-black-gary;
+    }
+  }
+}

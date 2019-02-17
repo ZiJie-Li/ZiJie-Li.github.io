@@ -1,0 +1,247 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: $font-family;
+  background-color: #f9f9f9;
+  overflow-x: hidden !important;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  float: left;
+  width: 100%;
+}
+
+.box-50 {
+  float: left;
+  width: 50%;
+}
+
+.bg-yellow {
+  background-color: $yellow;
+}
+
+.bg-green {
+  background-color: $green;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
+.bg-light-yellow {
+  background-color: $light-yellow;
+}
+
+.bg-light-green {
+  background-color: $light-green;
+}
+
+.bg-black-gary {
+  background-color: $black-gary;
+}
+
+.resume {
+  @extend .box;
+  margin: 50px 0 40px;
+  padding: 50px 0 40px;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.profile {
+  float: left;
+  width: calc(100% - 250px);
+
+  .logo {
+    @extend .box;
+    position: relative;
+    letter-spacing: 5px;
+    font-weight: 900;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    @include font-size(52);
+    &::after {
+      content: '';
+      position: absolute;
+      width: 40px;
+      height: 3px;
+      left: 0;
+      bottom: 0;
+      background-color: #009688;
+    }
+  }
+  .name {
+    @extend .box;
+    padding: 5px 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    @include font-size(18);
+  }
+  .job {
+    @extend .box;
+    width: auto;
+    padding: 2px 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $white;
+    background-color: $yellow;
+    @include font-size(14);
+  }
+}
+
+@media (max-width: $window-width-xs) {
+   .profile {
+      width: 100%;
+
+      .warpper {
+         width: 200px;
+          margin: 0 auto;
+          text-align: center;
+        }
+
+        .logo::after {
+            left: calc(50% - 20px);
+      }
+   }
+}
+
+.avatar {
+  float: left;
+  width: 250px;
+  margin-top: 15px;
+  .photo {
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+    margin-right: 50px;
+    border-radius: 100%;
+    border: 1px solid #aaa;
+    background-position: top center;
+    background-size: cover;
+    box-shadow: 2px 2px 35px rgba(100, 100, 100, .35);
+  }
+  .slogan {
+    @extend .box;
+    padding: 10px 0;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+    @include font-size(14);
+  }
+}
+
+@media (max-width: $window-width-xs) {
+   .avatar {
+      width: 100%;
+      margin-top: 60px;
+
+      .photo {
+         margin: 0 auto;
+      }
+   }
+}
+
+.experience {
+  @extend .box;
+  margin: 30px 0;
+}
+
+.project {
+  @extend .box;
+  margin: 80px 0 30px;
+  .card-row {
+    float: left;
+    width: calc((100% - 60px) / 3);
+    margin-right: 15px;
+    margin-left: 15px;
+
+    &:nth-child(3n - 2) {
+      margin-left: 0;
+    }
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+  @media (max-width: $window-width-md) {
+    .card-row {
+      width: calc((100% - 30px) / 2);
+
+      &:nth-child(3n - 2) {
+         margin-left: 15px;
+       }
+       &:nth-child(3n) {
+         margin-right: 15px;
+       }
+
+       &:nth-child(2n - 1) {
+         margin-left: 0;
+       }
+
+       &:nth-child(2n) {
+         margin-right: 0;
+       }
+    }
+  }
+
+  @media (max-width: $window-width-sm) {
+   .card .next .label {
+      display: none;
+   }
+  }
+
+  @media (max-width: $window-width-xs) {
+   .card-row {
+      width: 100%;
+      margin-right: 0;
+    margin-left: 0;
+
+       &:nth-child(2n - 1) {
+         margin-right: 0;
+       }
+
+       &:nth-child(2n) {
+         margin-left: 0;
+       }
+    }
+  }
+}
+
+@media (max-width: $window-width-md) {
+   .project {
+      margin: 30px 0;
+   }
+}
+
+footer {
+  margin: 60px 0 15px;
+  text-align: center;
+  .social-media {
+    @extend .box;
+    margin: 5px 0 20px;
+    .icon-ul {
+      display: inline-block;
+      li {
+        float: left;
+        margin: 0 7px;
+        color: $black;
+        .icon {
+          @extend .bg-yellow;
+          border: 2px solid $yellow;
+          color: #3a3a3a;
+          padding: 15px;
+          border-radius: 100%;
+          @include font-size(24);
+        }
+      }
+    }
+  }
+}
