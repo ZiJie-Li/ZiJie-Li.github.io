@@ -48,28 +48,32 @@ export default {
                 subject: '學歷經歷',
                 list: [
                     {
-                        title: '長榮大學 資訊管理學系 學士',
-                        desc: '2007/9 ~ 2011/6'
+                        title: '鴻海精密工業股份有限公司',
+                        desc: '2019/07 ~ 至今'
                     },
                     {
-                        title: '國立臺南大學 數位學習科技學系 碩士',
-                        desc: '2011/9 ~ 2013/8'
-                    },
-                    {
-                        title: '東指部砲一連通訊兵',
-                        desc: '2013/10 ~ 2014/9'
-                    },
-                    {
-                        title: '玩運彩資訊有限公司',
-                        desc: '2014/10 ~ 2014/12'
+                        title: '高盛大股份有限公司',
+                        desc: '2017/04 ~ 2019/07'
                     },
                     {
                         title: '鈊保資訊有限公司',
                         desc: '2015/01 ~ 2017/03'
                     },
                     {
-                        title: '高盛大股份有限公司',
-                        desc: '2017/04 ~ 至今'
+                        title: '玩運彩資訊有限公司',
+                        desc: '2014/10 ~ 2014/12'
+                    },
+                    {
+                        title: '東指部砲一連通訊兵',
+                        desc: '2013/10 ~ 2014/9'
+                    },
+                    {
+                        title: '國立臺南大學 數位學習科技學系 碩士',
+                        desc: '2011/9 ~ 2013/8'
+                    },
+                    {
+                        title: '長榮大學 資訊管理學系 學士',
+                        desc: '2007/9 ~ 2011/6'
                     }
                 ]
             },
@@ -82,7 +86,7 @@ export default {
                     },
                     {
                         title: '網頁前端開發',
-                        desc: 'HTML5、CSS3、JavaScript、SCSS、RWD、Bootstrap、jQuery、Gulp、Vue、Nuxt.js、Webpack'
+                        desc: 'HTML5、CSS3、JavaScript、SCSS、RWD、Bootstrap、jQuery、Gulp、Vue、Nuxt.js、Webpack、Parcel'
                     },
                     {
                         title: '資料庫設計與管理',
@@ -98,7 +102,7 @@ export default {
                     },
                     {
                         title: '學習中',
-                        desc: 'Parcel、TypeScript'
+                        desc: 'Docker、Mocha、Nightwatch'
                     }
                 ]
             },
