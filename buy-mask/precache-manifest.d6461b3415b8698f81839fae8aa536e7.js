@@ -4,32 +4,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/buy-mask/bm.png"
   },
   {
-    "revision": "2396fa506668473e3aec",
+    "revision": "ec65670504726af11b95",
     "url": "/buy-mask/css/app.03c9ff30.css"
-  },
-  {
-    "revision": "476d4975b79426b419e6",
-    "url": "/buy-mask/css/chunk-005455cf.ddb18039.css"
   },
   {
     "revision": "69295ec435f9a4819331",
     "url": "/buy-mask/css/chunk-05939790.ef0ee527.css"
   },
   {
-    "revision": "bd7e9df3a18e1bb80d99d90ff77e99ad",
+    "revision": "b3284f1a0d76205fb220",
+    "url": "/buy-mask/css/chunk-40fccb72.dbd6c840.css"
+  },
+  {
+    "revision": "83663088b4406c501204967b1d90ef9f",
     "url": "/buy-mask/index.html"
   },
   {
-    "revision": "2396fa506668473e3aec",
-    "url": "/buy-mask/js/app.8feba16f.js"
-  },
-  {
-    "revision": "476d4975b79426b419e6",
-    "url": "/buy-mask/js/chunk-005455cf.27f5122c.js"
+    "revision": "ec65670504726af11b95",
+    "url": "/buy-mask/js/app.275d837e.js"
   },
   {
     "revision": "69295ec435f9a4819331",
     "url": "/buy-mask/js/chunk-05939790.58c7cd33.js"
+  },
+  {
+    "revision": "b3284f1a0d76205fb220",
+    "url": "/buy-mask/js/chunk-40fccb72.d0abdd14.js"
   },
   {
     "revision": "afc1906b79560c3a10ee",
