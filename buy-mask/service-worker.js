@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/buy-mask/precache-manifest.eba37721a1c231519d3ccaa945173743.js"
+  "/buy-mask/precache-manifest.3adc11d9870453f43acff311d7032f9c.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "buy-mask"});
