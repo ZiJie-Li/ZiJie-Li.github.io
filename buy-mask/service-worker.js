@@ -1,4 +1,4 @@
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js", "/buy-mask/precache-manifest.673074b7a05dfc461d5a90b0256fb288.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js", "/buy-mask/precache-manifest.856c4bd90a264ad1c0b1acc6db02081c.js");
 
 /*if (workbox) {
   console.log(`Yay! Workbox is loaded!`);

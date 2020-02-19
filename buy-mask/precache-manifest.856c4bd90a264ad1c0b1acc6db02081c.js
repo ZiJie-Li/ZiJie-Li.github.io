@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/buy-mask/bm.png"
   },
   {
-    "revision": "c5a667645342baf670d8",
+    "revision": "b93cf83fe8c16399dfc3",
     "url": "/buy-mask/css/app.e8236ab8.css"
   },
   {
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/buy-mask/img/logo.3a8b27a6.png"
   },
   {
-    "revision": "6f90c9470fa1008c94cc51f610f04d51",
+    "revision": "042088d3af53cba187bec369ef16a204",
     "url": "/buy-mask/index.html"
   },
   {
-    "revision": "c5a667645342baf670d8",
-    "url": "/buy-mask/js/app.ffef2d41.js"
+    "revision": "b93cf83fe8c16399dfc3",
+    "url": "/buy-mask/js/app.c54ad726.js"
   },
   {
     "revision": "ca2970ca5f5dcf92928f",
