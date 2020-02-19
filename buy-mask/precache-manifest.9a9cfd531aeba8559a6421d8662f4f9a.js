@@ -4,12 +4,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/buy-mask/bm.png"
   },
   {
-    "revision": "b93cf83fe8c16399dfc3",
+    "revision": "b980aa5605169fe4ef36",
     "url": "/buy-mask/css/app.e8236ab8.css"
-  },
-  {
-    "revision": "ca2970ca5f5dcf92928f",
-    "url": "/buy-mask/css/chunk-1106ec1c.2bd9e819.css"
   },
   {
     "revision": "5a0d76c553301027e4a7",
@@ -20,6 +16,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/buy-mask/css/chunk-6a7817ee.e4612ab3.css"
   },
   {
+    "revision": "d1aefacf87d81cec09e4",
+    "url": "/buy-mask/css/chunk-d4a4d364.33b3da34.css"
+  },
+  {
     "revision": "b524be02bfffc021e0610f431c03c4f3",
     "url": "/buy-mask/firebase-messaging-sw.js"
   },
@@ -28,16 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/buy-mask/img/logo.3a8b27a6.png"
   },
   {
-    "revision": "042088d3af53cba187bec369ef16a204",
+    "revision": "27a9a574921840702f9a79995f6b09fa",
     "url": "/buy-mask/index.html"
   },
   {
-    "revision": "b93cf83fe8c16399dfc3",
-    "url": "/buy-mask/js/app.c54ad726.js"
-  },
-  {
-    "revision": "ca2970ca5f5dcf92928f",
-    "url": "/buy-mask/js/chunk-1106ec1c.311d41c9.js"
+    "revision": "b980aa5605169fe4ef36",
+    "url": "/buy-mask/js/app.2d05bf00.js"
   },
   {
     "revision": "f1441a03059eba3b5b09",
@@ -50,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ea8039af54c295b7d2b0",
     "url": "/buy-mask/js/chunk-6a7817ee.7a715606.js"
+  },
+  {
+    "revision": "d1aefacf87d81cec09e4",
+    "url": "/buy-mask/js/chunk-d4a4d364.14004185.js"
   },
   {
     "revision": "afc1906b79560c3a10ee",
