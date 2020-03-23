@@ -1,4 +1,4 @@
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js", "/buy-mask/precache-manifest.d7dced7973aced7108294427a71b9ed5.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js", "/buy-mask/precache-manifest.08624c5a1aabcd3a160ce912675ed650.js");
 
 /*if (workbox) {
   console.log(`Yay! Workbox is loaded!`);
@@ -25,7 +25,7 @@ workbox.routing.registerRoute(
   // Cache JS files
   /service-worker.js/,
   // 使用快取，但在背景更新
-  new workbox.strategies.StaleWhileRevalidate({
+  new workbox.strategies.NetworkFirst({
     // 使用自定義快取名稱
     cacheName: 'service-worker-cache'
   })
@@ -97,7 +97,7 @@ workbox.routing.registerRoute(
 // api缓存，优选从网络获取，网络异常时再使用缓存，请根据实际api url配置RegExp，只支持get请求
 workbox.routing.registerRoute(
   new RegExp('https://api.order.nctu.me/api/v1/maskStore'),
-  new workbox.strategies.StaleWhileRevalidate({
+  new workbox.strategies.NetworkFirst({
     cacheName: 'apis',
     plugins: [
       new workbox.cacheableResponse.Plugin({
