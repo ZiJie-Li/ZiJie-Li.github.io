@@ -23,10 +23,10 @@ module.exports="dist/lee_web_s.1888f52e.png";
 module.exports="dist/newyear2016_s.7d7cfc2b.png";
 },{}],"s4UB":[function(require,module,exports) {
 module.exports="dist/newyear2017_s.d114abc2.png";
-},{}],"VdeH":[function(require,module,exports) {
-module.exports="dist/nyiff2016_s.457c7539.png";
 },{}],"dVmW":[function(require,module,exports) {
 module.exports="dist/nga_s.4d457f44.png";
+},{}],"VdeH":[function(require,module,exports) {
+module.exports="dist/nyiff2016_s.457c7539.png";
 },{}],"FhP9":[function(require,module,exports) {
 module.exports="dist/ping_tung_s.61c027ac.png";
 },{}],"XnXY":[function(require,module,exports) {
@@ -38,8 +38,8 @@ module.exports="dist/twb_s.2d760a68.png";
 },{}],"x2h2":[function(require,module,exports) {
 module.exports="dist/usr_s.1fbf18a5.png";
 },{}],"bmIp":[function(require,module,exports) {
-module.exports={app1999_s:require("./app1999_s.png"),arttainan_s:require("./arttainan_s.png"),cdpa_s:require("./cdpa_s.png"),citypass_s:require("./citypass_s.png"),dagoshopping_s:require("./dagoshopping_s.png"),fse_s:require("./fse_s.png"),lee_web_s:require("./lee_web_s.png"),newyear2016_s:require("./newyear2016_s.png"),newyear2017_s:require("./newyear2017_s.png"),nyiff2016_s:require("./nyiff2016_s.png"),nga_s:require("./nga_s.png"),ping_tung_s:require("./ping_tung_s.png"),sinpao_s:require("./sinpao_s.png"),touchcity_s:require("./touchcity_s.png"),twb_s:require("./twb_s.png"),usr_s:require("./usr_s.png")};
-},{"./app1999_s.png":"gnRB","./arttainan_s.png":"M33d","./cdpa_s.png":"ExGO","./citypass_s.png":"Lod3","./dagoshopping_s.png":"aKYI","./fse_s.png":"HeL1","./lee_web_s.png":"spOp","./newyear2016_s.png":"gw6h","./newyear2017_s.png":"s4UB","./nyiff2016_s.png":"VdeH","./nga_s.png":"dVmW","./ping_tung_s.png":"FhP9","./sinpao_s.png":"XnXY","./touchcity_s.png":"Y8ZN","./twb_s.png":"Tz0E","./usr_s.png":"x2h2"}],"ilf0":[function(require,module,exports) {
+module.exports={app1999_s:require("./app1999_s.png"),arttainan_s:require("./arttainan_s.png"),cdpa_s:require("./cdpa_s.png"),citypass_s:require("./citypass_s.png"),dagoshopping_s:require("./dagoshopping_s.png"),fse_s:require("./fse_s.png"),lee_web_s:require("./lee_web_s.png"),newyear2016_s:require("./newyear2016_s.png"),newyear2017_s:require("./newyear2017_s.png"),nga_s:require("./nga_s.png"),nyiff2016_s:require("./nyiff2016_s.png"),ping_tung_s:require("./ping_tung_s.png"),sinpao_s:require("./sinpao_s.png"),touchcity_s:require("./touchcity_s.png"),twb_s:require("./twb_s.png"),usr_s:require("./usr_s.png")};
+},{"./app1999_s.png":"gnRB","./arttainan_s.png":"M33d","./cdpa_s.png":"ExGO","./citypass_s.png":"Lod3","./dagoshopping_s.png":"aKYI","./fse_s.png":"HeL1","./lee_web_s.png":"spOp","./newyear2016_s.png":"gw6h","./newyear2017_s.png":"s4UB","./nga_s.png":"dVmW","./nyiff2016_s.png":"VdeH","./ping_tung_s.png":"FhP9","./sinpao_s.png":"XnXY","./touchcity_s.png":"Y8ZN","./twb_s.png":"Tz0E","./usr_s.png":"x2h2"}],"ilf0":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e={name:"FeatureBox",props:{subject:{type:String,default:""},list:{type:Array,default:function(){return[]}}}};exports.default=e;
 (function(){var t=exports.default||module.exports;"function"==typeof t&&(t=t.options),Object.assign(t,{render:function(){var t=this,e=t.$createElement,s=t._self._c||e;return s("div",{staticClass:"feature"},[s("h3",{staticClass:"feature__subject"},[t._v(t._s(t.subject))]),t._v(" "),t.list.length>0?s("ul",{staticClass:"feature__list"},t._l(t.list,function(e,i){return s("li",{key:i,staticClass:"feature__item"},[s("div",{staticClass:"item__title"},[t._v(t._s(e.title))]),t._v(" "),s("div",{staticClass:"item__desc"},[t._v("- "+t._s(e.desc))])])}),0):t._e()])},staticRenderFns:[],_compiled:!0,_scopeId:null,functional:void 0});})();
 },{}],"Dxe7":[function(require,module,exports) {
@@ -57,4 +57,4 @@ module.exports={app1999_s:require("./app1999_s.png"),arttainan_s:require("./artt
 },{"../assets/scss/app":"n3jr","./layouts/main":"rLFX","./layouts/footer":"WjAL"}],"Focm":[function(require,module,exports) {
 "use strict";var e=u(require("vue")),r=u(require("./App"));function u(e){return e&&e.__esModule?e:{default:e}}new e.default({el:"#app",render:function(e){return e(r.default)}});
 },{"vue":"QPfz","./App":"Js2s"}]},{},["Focm"], null)
-//# sourceMappingURL=dist/src.4f08944b.js.map
+//# sourceMappingURL=dist/src.8bb70fd5.js.map
