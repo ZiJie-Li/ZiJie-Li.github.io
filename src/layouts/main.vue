@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import avatar from '../../assets/images/lee2.JPG';
+import avatar from '../../assets/images/IMG_0505.JPG';
 import photos from '../../assets/images/projects/*.png';
 
 import FeatureBox from '../components/FeatureBox';
